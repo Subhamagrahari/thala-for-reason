@@ -1,0 +1,43 @@
+span{
+    color:red;
+}
+*{
+    font-family: Rubik Doodle Shadow;
+    font-size:34px;
+}
+.container{
+    height:200px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px ;
+    box-shadow:5px 10px  rgb(247, 153, 153);
+    border-top:solid red;
+    border-left:solid red;
+
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    height:150px;
+    width:320px;
+    margin: auto;
+    gap:30px;
+   
+    padding-top: 40px;
+}
+input{
+    border-radius: 12px;
+ 
+}
+button{
+    border-radius: 12px;
+    background: red;
+    color:black;
+    font-weight: bold;
+}
