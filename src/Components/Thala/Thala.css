@@ -41,3 +41,26 @@ button{
     color:black;
     font-weight: bold;
 }
+.explanation{
+    display: flex;
+    flex-direction: column;
+    height:150px;
+    width:350px;
+    margin: auto;
+    gap:30px;
+   margin-left: -10px;
+    padding-top: 40px;
+    background: rgb(255, 249, 249);
+    margin-top: 60px;
+    border-radius: 18px;
+    padding:16px;
+    border:solid rgb(171, 18, 18);
+    color:red;
+   
+    
+}
+.poster-image img{
+    z-index: 1;
+  
+  
+}
